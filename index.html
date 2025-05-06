@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Chango&family=Chewy&family=DynaPuff:wght@400..700&family=Kaushan+Script&family=Kirang+Haerang&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Rubik+Wet+Paint&family=Sofadi+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Score Analyzer</title>
+</head>
+<body>
+
+	<div class="shadow-box">
+        <h1>SCORE ANALYZER</h1>
+        <hr />
+        <p>Enter your Grades in the Following Subjects:</p>
+    </div>
+
+    <div class="subject-container">
+        <div class="subject-box">
+            <img src="https://ph-test-11.slatic.net/p/32ef26a596f187312e340f20c2c7b06c.jpg" width="180">
+            <br />
+            <input type="number" class="form-control mt-2" id="inputMath" placeholder="Your Math Grade...">
+        </div>
+
+        <div class="subject-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuw6oonJmG03Qkhmtp_f3ZNAU2vu8BAKUdUg&s" width="180">
+            <br />
+            <input type="number" class="form-control mt-2" id="inputScience" placeholder="Your Science Grade...">
+        </div>
+
+        <div class="subject-box">
+            <img src="https://m.media-amazon.com/images/I/91NQcMCQGXL._AC_UF1000,1000_QL80_.jpg" width="180">
+            <br />
+            <input type="number" class="form-control mt-2" id="inputSocialStudies" placeholder="Your Social Studies Grade...">
+        </div>
+    </div>
+
+    <div class="shadow-box text-center my-4">
+        <button type="button" class="btn btn-danger w-100" onclick="Score()">Score</button>
+    </div>
+
+    <footer class="text-center p-3">
+        <p>9 - SAPPHIRE | SOFIA LAURENCE F. PADOJINOG</p>
+    </footer>
+
+    <script type="text/javascript" src="main.js"> </script>
+
+</body>
+</html>
